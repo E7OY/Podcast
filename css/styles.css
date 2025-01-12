@@ -150,26 +150,28 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
     width: 50%;
-    background-color: black;
+    background-color: white;
     font-family: "Inter", serif;
     border-radius: 15px;
-    padding: 10px;
     border: 1px solid white;
 }
 .app img {
     border-radius: 15px;
 }
 .app ul {
-    color: white;
+    color: black;
     display: flex;
-    gap: 40px;
+    gap: 30px;
     list-style: none;
     font-weight: 600;
 }
-
-
+.app .imagen-podcast {
+    display: flex;
+}
+.app ul li:hover {
+    color: #e4e4e4;
+}
 
 .podcast img {
     border-radius: 15px;
