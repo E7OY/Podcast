@@ -144,7 +144,7 @@ button {
     font-family: "Lilita One", serif;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     justify-content: left;
     flex-wrap: nowrap;
     gap: 20px;
@@ -155,7 +155,7 @@ button {
 }
 
 .podcast, .app {
-    height: 50vh;
+    height: auto;
     padding: 20px;
 }
 
