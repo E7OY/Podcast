@@ -110,7 +110,36 @@ button {
     font-size: 1rem;
 }
 
+
+.caracteristicas {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 20vh;
+    background-color: white;
+    color: black;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: "Inter", serif;
+    font-weight: 600;
+}
+.caracteristicas ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    gap: 90px;
+}
+.caracteristicas ul li {
+    display: inline;
+    list-style: none;
+}
+
+
+
 .podcasts {
+    height: auto;
     width: 100%;
     font-family: "Lilita One", serif;
     display: flex;
@@ -125,23 +154,28 @@ button {
     margin-left: 60px;
 }
 
+.podcast, .app {
+    height: 50vh;
+    padding: 20px;
+}
+
 .podcast{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     gap: 10px;
-    width: 50%;
     background-color: white;
     font-family: "Inter", serif;
     border-radius: 15px;
-    padding: 10px;
 }
 
 .app {
+    height: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
     background-color: white;
     font-family: "Inter", serif;
     border-radius: 15px;
@@ -151,31 +185,38 @@ button {
     border-radius: 15px;
 }
 .app ul {
-    margin-left: 50px;
     color: black;
     display: flex;
-    gap: 50px;
+    flex-direction: column;
+    gap: 30px;
     list-style: none;
     font-weight: 600;
     font-size: 1.1rem;
 }
-.app .imagen-podcast {
-    display: flex;
+
+.app .imagen-podcast img:hover {
+    filter: drop-shadow(
+        10px 10px 5px #434343
+    );
+    transition: 1s ease all;
 }
+
 .app ul li:hover {
     color: #b9b9b9;
 }
 
-.podcast img {
+.podcast .imagen-podcast img {
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     transform: rotate(3deg) translate(-20px, 30px);
-    box-shadow: 0px 0px 10px white;
 }
 
-.podcast img:hover {
-    transform: rotate(0deg) translate(0px, 20px);
-    box-shadow: none;
+.podcast .imagen-podcast img:hover {
+    transform: scale(1.1) rotate(3deg) translate(-20px, 30px);
+    filter: drop-shadow(
+        10px 10px 5px #C1BAE8
+    );
+    transition: 1s ease all;
 }
 
 .podcast audio {
@@ -186,6 +227,7 @@ button {
 .podcast h3, p {
     color: rgb(179, 179, 179);
     font-size: 18px;
+    font-weight: 500;
 }
 .podcast h2 {
     font-size: 22px;
@@ -198,6 +240,10 @@ button {
     flex-direction: column;
     gap: 10px;
     width: 50%;
+}
+
+.texto-podcast .archive-org {
+    border-radius: 20px;
 }
 
 footer {
@@ -216,7 +262,7 @@ footer img {
 footer h3 {
     color: black;
     font-family: "Inter", serif;
-    font-weight: 300;
+    font-weight: 500;
     margin-right: 10px;
     font-size: 1rem;
 }
@@ -255,6 +301,7 @@ footer h3 {
     .podcast img {
         transform: rotate(0deg) translate(0px, 0px);
         box-shadow: none;
+        width: 100%;
     }
     footer {
         padding: 0px 20px;
