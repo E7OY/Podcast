@@ -44,9 +44,9 @@ header nav {
     align-items: center;
     justify-content: space-between;
     height: 70vh;
-    margin: 20px auto;
     border-radius: 20px;
     background-color: white;
+    margin-bottom: 60px;
 }
 
 .texto {
@@ -119,11 +119,12 @@ button:hover {
 .caracteristicas {
     border-radius: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-family: "Inter", serif;
     font-weight: 600;
     width: 100%;
- }
+    gap: 50px;
+}
 .caracteristica {
     height: 60vh;
     color: black;
@@ -137,12 +138,12 @@ button:hover {
     display: flex;
     flex-direction: column;
     flex: 2;
-    gap: 20px;
+    gap: 40px;
 }
 .texto-caracteristicas h2,
 .texto-caracteristicas p {
-    max-width: 90%;
-    word-wrap: break-word;
+    max-width: 70%;
+    word-wrap: normal;
 }
 .texto-caracteristicas h2 {
     font-size: 2.5rem;
@@ -158,7 +159,7 @@ button:hover {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    flex: 1.3;
+    flex: 1 ;
 }
 .lista-caracteristicas > img {
     margin-top: 20px;
@@ -171,7 +172,7 @@ button:hover {
     text-align: left;
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style-image: url('../img/audio.png');
 }
 
@@ -284,9 +285,6 @@ button:hover {
 
 
 
-
-
-
 footer {
     height: 120px;
     border-radius: 20px;
@@ -360,6 +358,9 @@ input[type="submit"]{
 
 @media screen and (max-width: 496px) {
 
+    body {
+        width: 90%;
+    }
     .hero {
         flex-direction: column;
         padding: 20px;
@@ -387,17 +388,16 @@ input[type="submit"]{
         box-shadow: none;
         width: 100%;
     }
-    .caracteristicas {
-        flex-direction: column;
-    }
-    .caracteristica {
-        height: auto;
-        padding: 20px;
-    }
     footer {
         padding: 0px 20px;
     }
-    .texto-podcast .archive-org img {
+    .caracteristicas ul {
+        justify-content: space-between;
     }
+    .texto-caracteristicas h2,
+    .texto-caracteristicas p {
+        max-width: 100%;
+    }
+
     
 }
