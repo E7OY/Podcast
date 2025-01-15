@@ -51,7 +51,7 @@ header nav {
 
 .texto {
     font-family: "Inter", serif;
-    width: 25vw;
+    width: 35vw;
     flex-direction: column;
     text-align: left;
 }
@@ -145,7 +145,7 @@ button:hover {
     word-wrap: break-word;
 }
 .texto-caracteristicas h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: black;
 }
 .texto-caracteristicas p {
@@ -241,7 +241,7 @@ button:hover {
     font-weight: 500;
 }
 .podcast h2 {
-    font-size: 22px;
+    font-size: 1.8rem;
     margin-left: 0px;
     color: black;
 }
