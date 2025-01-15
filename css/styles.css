@@ -159,10 +159,12 @@ button:hover {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    flex: 1 ;
+    flex: 1;
 }
 .lista-caracteristicas > img {
     margin-top: 20px;
+}
+.lista-caracteristicas > img:hover {
     filter: drop-shadow(
         5px 5px 5px #434343
     );
