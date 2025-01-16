@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -223,6 +224,11 @@ button:hover {
     border-radius: 15px;
     border: 3px solid black;
     box-shadow: 15px 15px 0px black;
+    transition: 1s ease all;
+}
+.podcast:hover {
+    box-shadow: 25px 25px 0px black;
+    transition: 1s ease all;
 }
 .podcast .imagen-podcast img {
     border-radius: 15px;
