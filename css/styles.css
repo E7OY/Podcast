@@ -225,9 +225,11 @@ button:hover {
     border: 3px solid black;
     box-shadow: 15px 15px 0px black;
     transition: 1s ease all;
+    margin-bottom: 30px;
 }
+
 .podcast:hover {
-    box-shadow: 25px 25px 0px black;
+    box-shadow: 25px 25px 0px #B5D1EC, 45px 45px 0px #C1BAE8;
     transition: 1s ease all;
 }
 .podcast .imagen-podcast img {
@@ -245,6 +247,7 @@ button:hover {
 .podcast audio {
     border-radius: 15px;
     width: 80%;
+    margin-bottom: 20px;
 }
 .podcast h3, p {
     color: #b3b3b3;
@@ -252,7 +255,7 @@ button:hover {
     font-weight: 500;
 }
 .podcast h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-left: 0px;
     color: black;
 }
@@ -269,6 +272,12 @@ button:hover {
 }
 .texto-podcast p {
     font-weight: 300;
+}
+
+summary {
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 1.1rem;
 }
 
 /*
@@ -331,7 +340,7 @@ footer h3 {
 }
 
 .contacto h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .contacto p {
@@ -344,9 +353,6 @@ form {
     gap: 10px;
 }
 
-label {
-    text-align: left;
-}
 input {
     flex: 1 1 calc(45% - 0px);
     border-radius: 20px;
