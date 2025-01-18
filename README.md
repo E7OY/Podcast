@@ -51,7 +51,7 @@ Accede a la web aquí: [Enlace a GitHub Pages](#)
 Este repositorio contiene:
 
 ```
-Surfeando-en-la-Web/
+PODCAST/
 ├── img/               # Imágenes, logotipos y recursos multimedia.
 ├── html/            # Archivos relacionados con la estructura de la web.
 │   ├── index.html/        # Página de inicio.
