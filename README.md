@@ -2,7 +2,7 @@
 
 ## Surfeando en la Web con Eloy y Mateo
 
-Bienvenidos al repositorio oficial de nuestro proyecto para **DIW: P5 - PODCAST**. Aquí encontraréis todo lo relacionado con nuestro podcast y la página web promocional del mismo.
+Bienvenidos al repositorio de nuestro proyecto para **DIW: P5 - PODCAST**. Aquí encontraréis todo lo relacionado con nuestro podcast y la página web promocional del mismo.
 
 ---
 
