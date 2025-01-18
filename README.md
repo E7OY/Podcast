@@ -6,6 +6,19 @@ Bienvenidos al repositorio de nuestro proyecto para **DIW: P5 - PODCAST**. Aquí
 
 ---
 
+## 📚 Descripción del Proyecto
+
+Este proyecto es una práctica para la asignatura **Desarrollo de Interfaces Web (DIW)** que combina habilidades en diseño web y multimedia. El objetivo principal es crear un podcast relacionado con el diseño de interfaces web, acompañado de una página web promocional diseñada con tecnologías modernas como **HTML**, **CSS Grid** y **Flexbox**. 
+
+A través de este trabajo, aplicamos conceptos aprendidos en clase, como la semántica del HTML, el diseño responsive y las buenas prácticas en código. Además, desarrollamos competencias en edición de audio, diseño gráfico y publicación en plataformas en línea como **archive.org** y **GitHub Pages**.
+
+### Fases del Proyecto
+1. **Creación del Podcast:** Grabación, edición y publicación de un episodio de entre 1 y 3 minutos de duración, con música de introducción, ambiente y cierre.
+2. **Diseño de la Página Web Promocional:** Creación de una web responsive que incluya reproductor, enlaces al podcast, notas del episodio y otros elementos promocionales.
+3. **Entrega Final:** Publicación del podcast en archive.org y de la web promocional en GitHub Pages, asegurando que cumpla con las especificaciones técnicas.
+
+---
+
 ## 🎙️ Podcast: "Surfeando en la Web"
 
 En nuestro podcast exploramos temas relacionados con el diseño de interfaces web, compartiendo conocimientos, tendencias y reflexiones de una manera entretenida y profesional. 
