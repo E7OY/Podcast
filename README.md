@@ -2,7 +2,7 @@
 
 ## Surfeando en la Web con Eloy y Mateo
 
-Bienvenidos al repositorio oficial de nuestro proyecto para **DIW: P5 - PODCAST**. Aquí encontraréis todo lo relacionado con nuestro podcast y la página web promocional del mismo, conforme a las indicaciones del trabajo. 🌐✨
+Bienvenidos al repositorio oficial de nuestro proyecto para **DIW: P5 - PODCAST**. Aquí encontraréis todo lo relacionado con nuestro podcast y la página web promocional del mismo.
 
 ---
 
@@ -15,7 +15,6 @@ En nuestro podcast exploramos temas relacionados con el diseño de interfaces we
 En este primer capítulo, abordamos:
 - 🕰️ Los inicios del diseño web: HTML básico y sitios estáticos.
 - 🎨 La evolución con CSS: diseño responsivo y estético.
-- 🚀 Herramientas modernas como frameworks y tendencias actuales.
 - 🤔 Cómo estas innovaciones han cambiado la experiencia del usuario.
 
 #### Requisitos Técnicos del Podcast
@@ -29,7 +28,7 @@ Escúchalo aquí: [Enlace al podcast en archive.org](#)
 
 ## 🌐 Página Web Promocional
 
-Diseñamos una página web que sirve como plataforma promocional para nuestro podcast, con un diseño moderno y responsive, basado en **CSS Grid** y **Flexbox**. 
+Diseñamos una página web que sirve como plataforma promocional para nuestro podcast, con un diseño moderno y responsive, basado en **Flexbox**. 
 
 ### Contenido de la Web
 - Una descripción detallada del podcast.
@@ -61,17 +60,6 @@ Surfeando-en-la-Web/
 │   ├── styles.css/        # Archivo para los estilos.
 └── README.md            # Información general del repositorio.
 ```
-
----
-
-## 🚀 Cómo Contribuir
-
-Si deseas colaborar o dejarnos tus comentarios:
-1. Haz un fork de este repositorio.
-2. Crea una nueva rama: `git checkout -b mejora-web`.
-3. Realiza los cambios y haz commit: `git commit -m "Mejoras en el diseño de la web"`.
-4. Haz push de los cambios: `git push origin mejora-web`.
-5. Abre un pull request y lo revisaremos con gusto.
 
 ---
 
