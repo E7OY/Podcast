@@ -3,7 +3,7 @@
 ## <a href="https://e7oy.github.io/Podcast/html/index.html">Surfeando en la Web con Eloy y Mateo</a>
 
 Bienvenidos al repositorio de nuestro proyecto para **DIW: P5 - PODCAST**. Aquí encontraréis todo lo relacionado con nuestro podcast y la página web promocional del mismo.
-
+Puedes visualizar la web en este <a href="https://e7oy.github.io/Podcast/html/index.html">enlace</a>.
 ---
 
 ## 📚 Descripción del Proyecto
