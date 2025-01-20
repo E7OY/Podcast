@@ -35,7 +35,7 @@ En este primer capítulo, abordamos:
 - Música de introducción, ambiente y cierre (editado con **Audacity**).
 - Publicado en **archive.org** con notas del episodio y miniatura.
 
-Escúchalo aquí: [Enlace al podcast en archive.org](#)
+Escúchalo aquí: <a href="https://e7oy.github.io/Podcast/html/index.html">enlace</a>.
 
 ---
 
