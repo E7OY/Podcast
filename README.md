@@ -55,7 +55,7 @@ Diseñamos una página web que sirve como plataforma promocional para nuestro po
 - Diseño responsive: adaptado para diferentes dispositivos.
 - Código limpio y validado: comentarios útiles y organización clara.
 
-Accede a la web aquí: [Enlace a GitHub Pages](#)
+Accede a la web aquí: <a href="https://e7oy.github.io/Podcast/html/index.html">enlace</a>.
 
 ---
 
