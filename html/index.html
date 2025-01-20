@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,30 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../img/logopodcast.jpg" type="image/x-icon">
 </head>
+
 <body>
 
     <header>
         <a href="index.html"><img src="../img/logopodcast.jpg" width="150" alt="logo del podcast"></a>
         <nav>
             <ul>
-                <li><a href="index.html">Podcast</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#podcasts">Podcasts</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <section class="hero">
+        <section class="hero" id="inicio">
             <article class="texto">
-            <img src="../img/iconos_mensajes.png" width="100" alt="">
-            <h1>Surfeando en la web con Eloy y Mateo</h1>
-            <h2>Tu podcast de diseño web</h2>
-            <a href="#podcasts"><button>Escuchar último capítulo</button></a>  
+                <img src="../img/iconos_mensajes.png" width="100" alt="imagen iconos mensajes">
+                <h1>Surfeando en la web con Eloy y Mateo</h1>
+                <h2>Tu podcast de diseño web</h2>
+                <a href="#podcasts">Escuchar último capítulo</a>
             </article>
-            
+
             <article class="imagenes">
                 <img src="../img/miniaturapodcast1.webp" width="120" alt="iconos mensajes">
                 <img src="../img/miniaturapodcast1.webp" width="120" alt="iconos mensajes">
@@ -39,9 +42,12 @@
         <section class="caracteristicas">
             <div class="caracteristica texto-caracteristicas">
                 <h2>Escucha nuestros podcasts</h2>
-                <p>Bienvenidos a "Surfeando en la Web con Eloy y Mateo", el podcast de diseño web en el que te llevaremos a un  
-                viaje por las últimas tendencias, herramientas y técnicas en el mundo del desarrollo y diseño de sitios web. Únete a nosotros 
-                    cada semana para descubrir consejos prácticos, entrevistas con expertos y debates sobre cómo crear experiencias web innovadoras y 
+                <p>Bienvenidos a "Surfeando en la Web con Eloy y Mateo", el podcast de diseño web en el que te
+                    llevaremos a un
+                    viaje por las últimas tendencias, herramientas y técnicas en el mundo del desarrollo y diseño de
+                    sitios web. Únete a nosotros
+                    cada semana para descubrir consejos prácticos, entrevistas con expertos y debates sobre cómo crear
+                    experiencias web innovadoras y
                     atractivas. ¡No te lo pierdas!</p>
 
             </div>
@@ -54,14 +60,12 @@
                 </ul>
                 <img class="app" src="../img/app.webp" width="300" alt="app mobile">
             </div>
-
+            <article class="app">
+                <div class="imagen-podcast">
+                </div>
+            </article>
         </section>
-        
-                    <article class="app">
-                        <div class="imagen-podcast">
-                        </div>
-                </article>
-        
+
         <section class="podcasts" id="podcasts">
             <h1>Podcasts</h1>
             <article class="podcast">
@@ -71,13 +75,13 @@
                     <h2>#1 Evolucion del diseño web</h2>
                     <h3>10 de febrero de 2025</h3>
                     <p>
-                        Surfeando en la web con Eloy y Mateo: 
+                        Surfeando en la web con Eloy y Mateo:
                         Evolución del diseño web.
-                        
+
                         Este podcast trata sobre la evolución de las
-                        tendencias de diseño que han sufrido las webs 
+                        tendencias de diseño que han sufrido las webs
                         a lo largo de la historia de internet, comparando
-                        diseños modernos con diseños antiguos de 
+                        diseños modernos con diseños antiguos de
                         webs.
                     </p>
                     <audio controls loop>
@@ -85,26 +89,44 @@
                     </audio>
                     <details>
                         <summary>Enlaces mencionados en el programa</summary>
-                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-                    </details> 
+                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+                            international pavilions, award-winning fireworks and seasonal special events.</p>
+                    </details>
                     <details>
                         <summary>Música usada en el programa
                         </summary>
-                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-                    </details> 
+                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+                            international pavilions, award-winning fireworks and seasonal special events.</p>
+                    </details>
                 </div>
                 <div class="imagen-podcast">
-                <img src="../img/miniaturapodcast1.webp" width="380" alt="miniatura podcast 1">
+                    <img src="../img/miniaturapodcast1.webp" width="380" alt="miniatura podcast 1">
                 </div>
             </article>
+            
+        </section>
 
-    </section>
-    
-    <footer>
-        <!--<img src="../img/logopodcast.jpg" width="170" alt="logo podcast">-->
-        <h3>© 2025 Todos los derechos reservados · Surfeando en la web con Eloy y Mateo</h3>
-    </footer>
+        <section class="contacto" id="contacto">
+            <h1>Contacto</h1>
+            <p>Ponte en contacto con nosotros para cualquier propuesta de podcast,
+                problema en nuestra plataforma, o simplemente para compartir tus ideas
+                y sugerencias. Nos encantaría escuchar tus opiniones y trabajar juntos
+                para mejorar nuestra comunidad de podcast.</p>
+            <form action="mailto:e.garcia@liceolapaz.net">
+                <input placeholder="nombre" type="text" name="nombre" id="nombre">
+                <input placeholder="apellidos" type="text" name="apellidos" id="apellidos">
+                <input placeholder="comentarios" type="text" name="comentarios" id="comentarios">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+
+        <footer>
+            <!--<img src="../img/logopodcast.jpg" width="170" alt="logo podcast">-->
+            <h3>© 2025 Todos los derechos reservados · Surfeando en la web con Eloy y Mateo</h3>
+        </footer>
 
     </main>
 </body>
+
 </html>
