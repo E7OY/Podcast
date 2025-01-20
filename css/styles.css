@@ -8,13 +8,13 @@
     scroll-behavior: smooth;
 }
 
+*::selection {
+    background-color: #B5D1EC;
+}
+
 body {
     margin: 0 auto;
     width: 70%;
-}
-
-section {
-    margin-bottom: 60px;
 }
 
 header {
@@ -52,9 +52,8 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 85vh;
+    height: 75vh;
     border-radius: 20px;
-    background-color: white;
 }
 
 .texto {
@@ -104,35 +103,25 @@ header nav {
     color: #b3b3b3;
 }
 
-
 .texto a {
     display: inline-block;
     margin-top: 10px;
-    padding: 15px 20px;
-    background-color: #b3b3b3;
-    border: 3px solid #b3b3b3;
+    padding: 20px 20px;
     color: white;
     border-radius: 35px;
     cursor: pointer;
     font-family: "Inter", serif;
     font-weight: 600;
     font-size: 1rem;
-}
-.texto a:hover {
-    background-color: white;
-    color: #b3b3b3;
-    transition: 1s ease all;
-}
-.texto a:hover {
-    color: #b3b3b3;
-    transition: 1s ease all;
-}
-.texto a {
     text-decoration: none;
-    color: white;
+    background: linear-gradient(45deg, #B5D1EC, #CBADE5);
+}
+.texto a:hover {
+    background: linear-gradient(45deg,#CBADE5, #B5D1EC);
 }
 
 .caracteristicas {
+    padding-top: 90px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -140,6 +129,8 @@ header nav {
     font-weight: 600;
     width: 100%;
     gap: 50px;
+    background: linear-gradient(45deg, #b5d1ec2f, #cbade52d);
+    margin-bottom: 100px;
 }
 .caracteristica {
     height: 60vh;
@@ -162,7 +153,7 @@ header nav {
     word-wrap: normal;
 }
 .texto-caracteristicas h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: black;
 }
 .texto-caracteristicas p {
@@ -178,7 +169,7 @@ header nav {
     flex: 1;
 }
 .lista-caracteristicas > img {
-    margin-top: 20px;
+    margin-top: 60px;
 }
 .lista-caracteristicas > img:hover {
     filter: drop-shadow(
@@ -200,11 +191,12 @@ header nav {
     text-align: center;
     align-items: center;
     width: 25%;
-
 }
 .caracteristicas ul li:hover {
     color: #b3b3b3;
 }
+
+
 
 .podcasts {
     height: auto;
@@ -216,12 +208,11 @@ header nav {
     flex-wrap: nowrap;
     gap: 20px;
 }
-.podcasts h1 {
+.podcasts h2 {
     font-family: "Inter", serif;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: black;
-    margin-bottom: 20px;
 }
 
 .podcast{
@@ -269,11 +260,7 @@ header nav {
     font-size: 18px;
     font-weight: 500;
 }
-.podcast h2 {
-    font-size: 2rem;
-    margin-left: 0px;
-    color: black;
-}
+
 
 .texto-podcast {
     padding: 20px;
@@ -287,6 +274,12 @@ header nav {
 }
 .texto-podcast p {
     font-weight: 300;
+}
+.texto-podcast h2 {
+    text-align: left;
+    font-size: 2.5rem;
+
+
 }
 
 summary {
@@ -314,7 +307,6 @@ summary {
     );
     transition: 1s ease all;
 }
-
 */
 
 
@@ -332,7 +324,7 @@ footer img {
     border-radius: 10px;
 }
 footer h3 {
-    color: rgb(0, 0, 0);
+    color: black;
     font-family: "Inter", serif;
     font-weight: 500;
     margin-right: 10px;
@@ -342,48 +334,51 @@ footer h3 {
 /*------------CONTACTO--------------*/
 
 .contacto {
-    text-align: center;
     font-family: "Inter", serif;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-evenly;
-    height: 70vh;
     border-radius: 20px;
-    background-color: white;
+    background: linear-gradient(45deg, #b5d1ec2f, #cbade52d);
+    margin: 150px 0px;
+    padding: 120px;
 }
 
-.contacto h1 {
+.contacto h2 {
     font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 .contacto p {
     width: 65%;
+    margin-bottom: 20px;
 }
 
 form {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    font-family: monospace;
 }
 
-input {
+input, textarea {
     flex: 1 1 calc(45% - 0px);
     border-radius: 20px;
-    border: 3px solid #b3b3b3;
+    border: 3px solid #B5D1EC;
     padding: 30px 30px;
     font-size: 1.1rem;
+    font-family: monospace;
 }
 
+
 input[type="submit"]{
-    background-color: #b3b3b3;
+    background-color: #CBADE5;
     color: white;
     outline: none;
     border: none;
     padding: 30px 30px;
     border-radius: 20px;
 }
-
 
 
 @media screen and (max-width: 496px) {
