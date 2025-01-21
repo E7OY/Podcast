@@ -86,5 +86,5 @@ Este proyecto está bajo la licencia [MIT](LICENSE). Siéntete libre de usar, co
 
 ##  💻 Mockups
 
-![364shots_so](https://github.com/user-attachments/assets/1ba922b6-7273-4d58-a69a-9633ec2d33ea)
+![799shots_so](https://github.com/user-attachments/assets/525f1d39-cdaa-45bf-b01b-d63033acbf16)
 ![514shots_so](https://github.com/user-attachments/assets/bb3ad80d-d4c8-4f1e-bc60-df4035b6c877)
