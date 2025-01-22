@@ -255,6 +255,7 @@ header nav {
     border-radius: 15px;
     width: 80%;
     margin-bottom: 20px;
+    border: 3px solid #CBADE5;
 }
 .podcast h3, p {
     color: #b3b3b3;
@@ -339,7 +340,7 @@ footer h3 {
     border-radius: 20px;
     background: linear-gradient(45deg, #b5d1ec2f, #cbade52d);
     margin-top: 100px;
-    padding: 120px;
+    padding: 80px;
     text-align: center;
 }
 
