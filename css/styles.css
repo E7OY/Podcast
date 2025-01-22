@@ -47,7 +47,7 @@ header nav ul li a {
     color: var(--gris-oscuro);
 }
 header nav ul li a:hover {
-    color: var(--gris-claro);
+    text-decoration: underline;
 }
 header nav {
     width: 100%;
