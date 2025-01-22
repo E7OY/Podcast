@@ -45,6 +45,12 @@ header nav {
     width: 100%;
     padding: 30px;
 }
+.boton {
+    padding: 15px 20px;
+    background: linear-gradient(45deg, #B5D1EC, #CBADE5);
+    color: white;
+    border-radius: 30px;
+}
 
 .hero {
     text-align: center;
@@ -62,6 +68,10 @@ header nav {
     width: 35vw;
     flex-direction: column;
     text-align: left;
+}
+span {
+    background: #B5D1EC;
+    color: white;
 }
 
 .imagenes {
@@ -279,7 +289,7 @@ header nav {
 }
 .texto-podcast h2 {
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 summary {
