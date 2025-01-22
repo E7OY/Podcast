@@ -318,6 +318,7 @@ details h4 {
 details a {
     font-weight: 300;
     font-size: 1.1rem;
+    color: var(--azul);
 }
 
 
