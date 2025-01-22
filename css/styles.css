@@ -310,6 +310,15 @@ summary {
     font-weight: 600;
     font-size: 1.1rem;
 }
+details h4 {
+    color: var(--gris-claro);
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+details a {
+    font-weight: 300;
+    font-size: 1.1rem;
+}
 
 
 
